@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Indrajeet\Publish\TopsyTurvy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Aboutus.aspx">
+      <publishTime>08/04/2021 13:11:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/Topsy_turvy.dll">
+      <publishTime>08/04/2021 20:08:41</publishTime>
+    </File>
+    <File Include="CancellationPolicy.aspx">
+      <publishTime>08/04/2021 13:11:54</publishTime>
+    </File>
+    <File Include="Contactus.aspx">
+      <publishTime>08/04/2021 18:27:50</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>08/04/2021 13:10:37</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>08/04/2021 13:10:38</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css.map">
+      <publishTime>08/04/2021 13:10:38</publishTime>
+    </File>
+    <File Include="css/flaticon.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>08/04/2021 13:10:38</publishTime>
+    </File>
+    <File Include="css/icomoon.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>08/04/2021 13:10:38</publishTime>
+    </File>
+    <File Include="css/jquery.bootstrap-touchspin.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/jquery.fancybox.css">
+      <publishTime>08/04/2021 13:10:38</publishTime>
+    </File>
+    <File Include="css/nouislider.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/owl.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="css/slider-setting.css">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>07/27/2021 14:04:43</publishTime>
+    </File>
+    <File Include="css/theme-2.css">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="Gallary.aspx">
+      <publishTime>08/04/2021 13:11:53</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>08/04/2021 17:00:35</publishTime>
+    </File>
+    <File Include="Imagess/Font/ITCAVANTGARDESTD-MD.OTF">
+      <publishTime>08/04/2021 11:58:27</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.ai">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.eps">
+      <publishTime>08/04/2021 11:58:27</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.jpg">
+      <publishTime>08/04/2021 11:58:27</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.pdf">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.png">
+      <publishTime>08/04/2021 11:58:28</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.psd">
+      <publishTime>08/04/2021 11:58:28</publishTime>
+    </File>
+    <File Include="Imagess/Topsy-Turvy-Final-File-15062016.tif">
+      <publishTime>08/04/2021 11:58:30</publishTime>
+    </File>
+    <File Include="js/appear.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/isotope.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="js/jquery.appear.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/jquery.fancybox-media.js">
+      <publishTime>08/04/2021 13:10:39</publishTime>
+    </File>
+    <File Include="js/jquery.fancybox.pack.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/jQuery.style.switcher.min.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/owl.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/revolution.min.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>08/04/2021 13:10:40</publishTime>
+    </File>
+    <File Include="js/smoothscroll.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="js/wow.js">
+      <publishTime>08/04/2021 11:51:39</publishTime>
+    </File>
+    <File Include="Maintenance.html">
+      <publishTime>08/04/2021 13:22:28</publishTime>
+    </File>
+    <File Include="PrivacyPolicy.aspx">
+      <publishTime>08/04/2021 13:11:54</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>08/04/2021 13:11:54</publishTime>
+    </File>
+    <File Include="Services.aspx">
+      <publishTime>08/04/2021 13:11:54</publishTime>
+    </File>
+    <File Include="Topsy_Home.Master">
+      <publishTime>08/04/2021 18:30:34</publishTime>
+    </File>
+    <File Include="Uploadcv.aspx">
+      <publishTime>08/04/2021 13:19:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/04/2021 20:07:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

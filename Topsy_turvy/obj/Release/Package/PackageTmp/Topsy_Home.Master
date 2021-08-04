@@ -1,0 +1,219 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Topsy_Home.master.cs" Inherits="Topsy_turvy.Topsy_Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> Topsy Turvy</title>
+      
+    
+    
+    <link rel="shortcut icon" href="Imagessss/Topsy-Turvy-Final-File.png" />
+
+    <link href="css/flaticon.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/icomoon.css" rel="stylesheet" />
+    <link href="css/jquery-ui.css" rel="stylesheet" />
+    <link href="animate.css" rel="stylesheet" />
+    <link href="css/jquery.bootstrap-touchspin.css" rel="stylesheet" />
+    <link href="css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="css/nouislider.css" rel="stylesheet" />
+    <link href="css/owl.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <%--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">--%>
+     <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/full-slider.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/revolution-slider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/slider-setting.css" rel="stylesheet" />
+    <link href="css/theme-2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/appear.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <style type="text/css">
+          @-webkit-keyframes blackyellow {  
+          0% { color: lightsteelblue; }
+          50% { color: lightsteelblue; }
+          51% { color: black; }
+          100% { color: black; }
+        }
+
+        .blinkdiv {
+            height: 25px;
+            background-color: none;
+            -webkit-animation-name: blackyellow;  
+            -webkit-animation-iteration-count: infinite;  
+            -webkit-animation-duration: 1s; 
+        }
+       
+        </style>
+</head>
+<body>
+    <div class="page-wrapper body_wrapper"> <!-- Preloader --> 
+  
+  <!--  <div class="preloader"></div>--> 
+  
+  <!-- Main Header / Header Style One-->
+  
+  <header class="main-header header-style-one">
+   
+    <div class="header-lower">
+      <div class="main-box">
+        <div class="auto-container">
+          <div class="outer-container clearfix"> <!--Logo Box-->
+            <div class="logo-box">
+              <div class="logo"><a href="Home.aspx" title="Topsy Turvy logo"><img src="Imagess/Topsy-Turvy-Final-File.png"  alt="Topsy Turvy Logo" title="Topsy Turvy" class="auto-style1" style="height:80px;width:250px" /></a></div>
+            </div>
+             
+            <!--Nav Outer-->
+            
+            <div class="nav-outer clearfix"> <!-- Main Menu -->
+              
+              <nav class="main-menu">
+                <div class="navbar-header"> <!-- Toggle Button -->
+                  
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="navbar-collapse collapse clearfix">
+                  <ul class="navigation clearfix">
+                    <li class="current"> <a href="Home.aspx" title="Home">Home</a> </li>
+                    <li> <a href="Aboutus.aspx" title="About Us">About Us</a> </li>
+                    <li> <a href="Maintenance.html" title="Services">Services</a></li>
+                     <li> <a href="Maintenance.html" title="Gallery">Gallery</a> </li>
+                    <li><a href="Contactus.aspx" title="Contact Us">Contact Us</a></li>  </ul>
+                </div>
+              </nav>
+             
+              <!-- Main Menu End--> </div>
+           
+            <!--Nav Outer End--> </div>
+        </div>
+      </div>
+    </div>
+      <div class="sticky-header">
+      <div class="auto-container clearfix"> <!--Logo-->
+         
+        
+        <div class="logo pull-left"> <a href="" title="The Finance"><img src="Imagess/Topsy-Turvy-Final-File.png"  alt="Recruitment Consultancy Services India" title="Topsy Turvy-website-1" style="height:70px;" /></a> </div>
+        
+        <!--Right Col-->
+        
+        <div class="right-col pull-right"> <!-- Main Menu -->
+          
+          <nav class="main-menu">
+            <div class="navbar-header"> <!-- Toggle Button -->
+              
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="navbar-collapse collapse clearfix">
+              <ul class="navigation clearfix">
+                <li class="current"> <a href="Home.aspx">Home</a> </li>
+                <li> <a href="Aboutus.aspx">About Us</a> </li>
+               <li class="Maintenance.html.aspx"> <a href="Services.aspx">Services</a></li>
+                    <li> <a href="Gallary.aspx">Gallery</a> </li>
+                <li><a href="Contactus.aspx">Contact Us</a></li>
+                        </ul>
+            </div>
+          </nav>
+          
+          <!-- Main Menu End--> </div>
+      </div>
+    </div>
+    
+    <!--End Sticky Header--> </header>
+       
+         </div>
+    
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+         <footer class="main-footer"> <!--Footer Upper-->
+    
+    <div class="footer-upper">
+      <div class="auto-container">
+        <div class="row clearfix">
+          <div class="col-lg-4 col-sm-4 col-xs-12 column">
+            <div class="footer-widget about-widget">
+              <h5>About us</h5>
+              <div class="text margin-bott-30">
+                <p>Topsy Turvy is one of the fastest growing profile management company, primarily focused on HR & Staffing, e-Learning , App Based Services, Web Based Services, Marketing.</p>
+              </div>
+              <div class="link"><a href="Aboutus.aspx" title="About Us">Read More <i class="fa fa-angle-right"></i></a></div>
+            </div>
+          </div>
+          
+          <!--Footer Column-->
+          
+          <div class="col-lg-4 col-sm-4 col-xs-12 column">
+            <div class="footer-widget links-widget">
+              <h5>Useful Links</h5>
+              <ul>
+               
+                <li><a href="Maintenance.html" title="Services">Services</a></li>
+                <li><a href="Uploadcv.aspx" title="CAREER">CAREER</a></li>
+                <li><a href="Contactus.aspx" title="Contact Us">Contact Us</a></li>
+                <li><a href="PrivacyPolicy.aspx" title="Privacy policy">Privacy policy</a></li>
+                <li><a href="CancellationPolicy.aspx" title="Cancellation policy Us">Cancellation policy</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <!--Footer Column-->
+          
+          <div class="col-lg-4 col-sm-4 col-xs-12 column">
+            <div class="footer-widget links-widget social-links">
+                <div class="row">
+                     <h5>Topsy Turvy at Social</h5>
+                </div>
+                <div class="row">
+                    <div class=""> <a href="https://www.facebook.com/Topsy Turvytechnology" target="_blank"><img src="Imagess/62487-bluetie-icons-computer-facebook-login-icon-email.png" width="25" /> </a> <a href="https://www.linkedin.com/in/Topsy Turvy/" target="_blank"><img src="Imagess/8-2-linkedin-png-picture.png" width="25"/></a> <a href="https://youtube.com/Topsy Turvy" target="_blank"><img src="Imagess/youtube.png" width="25"/></a> </div>
+                </div>
+                <div class="row">
+                  <div class=""> <br />
+                  <%--    gmaplocation here
+                      --%>              </div>
+           </div>
+            
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--Footer Bottom-->
+    
+    <div class="footer-bottom">
+      <div class="auto-container">
+        <div class="row clearfix">
+          
+            <div class="copyright-text" style="text-align:center">© Copyright MM Media & Management Services. All Rights Reserved</div>
+         
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!--End pagewrapper--> <!--Scroll to top-->
+
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+<script src="js/jquery.js"></script> <script src="js/bootstrap.min.js"></script> <script src="js/jQuery.style.switcher.min.js"></script> <script src="js/jquery.appear.js"></script> <script src="js/jquery-ui.js"></script> <script src="js/revolution.min.js"></script> <script src="js/jquery.fancybox.pack.js"></script> <script src="js/jquery.fancybox-media.js"></script> <script src="js/owl.js"></script> <script src="js/wow.js"></script> <script src="js/appear.js"></script> <script src="js/smoothscroll.js"></script> <script src="js/isotope.js"></script> <script src="js/script.js"></script>
+<script>
+$(".testi").owlCarousel({
+  loop:true,
+  items:4,
+  margin:30,
+  nav:0,
+  smartSpeed:1500,
+   autoplay: true,
+        autoPlaySpeed: 500,
+        autoPlayTimeout: 500,
+        autoplayHoverPause: true,
+  responsive:{0:{items:1},992:{items:2},1200:{items:2}}})
+</script>
+</body>
+</html>
